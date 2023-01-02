@@ -62,6 +62,6 @@ def calcular_volumen_esfera(radio):
     return volumen
 if __name__ == '__main__':
     #leo variables
-    radio=leer_variables
+    radio=leer_variables()
     #imprimo el volumen de la esfera
     print("El volumen de la esfera es: ",calcular_volumen_esfera(radio))
